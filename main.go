@@ -41,7 +41,7 @@ func ConvertToAbsolutePath(currentDir, relativePath string) string {
 
 func main() {
 	currentDir := "/home/user/docs/rouhan"
-	relativePath := "./pictures/image.jpg"
+	relativePath := "../"
 
 	absolutePath := ConvertToAbsolutePath(currentDir, relativePath)
 	fmt.Println("Absolute Path:", absolutePath)
