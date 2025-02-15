@@ -14,3 +14,20 @@ Ensure you have Git installed, then run:
 
 ```sh
 git clone https://github.com/rouhan14/question1.git
+
+```
+
+### 2. Move to the question1 directory
+
+```sh
+cd question1
+
+```
+
+### 3. Run all the files with the following command to run the program
+Ensure you have GO installed, then run:
+
+```sh
+go run .
+
+```
