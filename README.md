@@ -31,3 +31,57 @@ Ensure you have GO installed, then run:
 go run .
 
 ```
+
+### Test Cases
+
+Run the program with the following test cases:
+
+#### Test Case 1
+
+Input:
+```sh
+currentDir := "/home/user/docs/rouhan"
+relativePath := "./pictures/image.jpg"
+```
+
+Expected Output:
+
+```sh
+Absolute Path: /home/user/docs/rouhan/pictures/image.jpg
+```
+#### Test Case 2
+Input:
+
+```sh
+currentDir := "/home/user/docs/rouhan"
+relativePath := "../music/song.mp3"
+```
+Expected Output:
+
+```sh
+Absolute Path: /home/user/docs/music/song.mp3
+```
+#### Test Case 3
+Input:
+
+```sh
+currentDir := "/home/user/docs/rouhan"
+relativePath := "../../music/song.mp3"
+```
+Expected Output:
+
+```sh
+Absolute Path: /home/user/music/song.mp3
+```
+#### Test Case 4
+Input:
+
+```sh
+currentDir := "/home/user/docs/rouhan"
+relativePath := "../"
+```
+Expected Output:
+
+```sh
+Absolute Path: /home/user/docs
+```
